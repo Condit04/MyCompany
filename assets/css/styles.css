@@ -285,6 +285,27 @@ body, h1, h2, h3, h4, h5, h6 {
      color: #6c6c6c;
 }
 
+.services__list {
+    margin-top: 102px;
+    display: flex;
+    justify-content: center;
+}
+
+.services__about-title {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.services__about-subtext {
+    font-size: 14px;
+    font-weight: normal;
+    color: #222;
+}
+
+.services {
+    margin-right: 49px;
+}
+
 
 
 /* Main__clients */
@@ -489,6 +510,17 @@ body, h1, h2, h3, h4, h5, h6 {
     margin-top: 115px;
     display: flex;
     justify-content: center;
+}
+
+button {
+    width: 165px;
+    height: 40px;
+    top: 90%; 
+    left: 78%;
+    position: absolute;
+    background-color: #fcac45;
+    color: #fff;
+    border-style: none;
 }
 
 .contact__label {
